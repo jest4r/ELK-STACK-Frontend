@@ -7,12 +7,12 @@ export default function Home() {
       <header className="absolute top-2 left-2 m-4 font-bold text-2xl text-black">
         LIBRA CHATBOT
       </header>
-      <div className="absolute top-0 right-0 opacity-20 z-0]">
+      <div className="absolute top-0 right-0 opacity-20 z-0">
         <Image src="/mb.png" alt="Background Image" width={500} height={500} />
       </div>
       <div className="flex flex-col justify-center items-center font-mono text-sm lg:flex mt-0">
         <div className="text-center pl-6 font-sans">
-          <h1 className="w-full font-bold text-7xl text-black">KHỞI ĐỘNG CÙNG <br/> "SAO" YOU SHINE</h1>
+          <h1 className="w-full font-bold text-7xl text-black">KHỞI ĐỘNG CÙNG <br/> &quot;SAO&quot; YOU SHINE</h1>
           <p className="mt-6 text-black text-center text-base text-xl">
             Mở  khóa cánh cửa dẫn đến tiềm năng vô hạn của bạn <br />
             Hãy bắt đầu hành trình khám phá bản thân ngày hôm nay!

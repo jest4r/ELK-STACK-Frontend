@@ -6,11 +6,18 @@ return (
         <header className="absolute top-2 left-2 m-4 font-bold text-2xl text-black">
             LIBRA CHATBOT
         </header>
-        <br /> <br />
+        <div className="absolute top-0 right-0 z-0">
+      <Image
+            src="/chatbot.png"
+            alt="Chatbot Image"
+            width={499}
+            height={605}
+          />
+      </div>
         <div className="flex justify-between w-full items-center font-mono text-sm lg:flex">
-            <div className="text-left pl-6 font-sans">
-            <h1 className="w-full font-bold text-4xl text-black">TẠO TÀI KHOẢN</h1>
+        <div className="text-left pl-6 font-sans">
         <br /> <br />
+        <h1 className="w-full font-bold text-4xl text-black">TẠO TÀI KHOẢN</h1>
         <form className="mt-6 text-black text-justify text-base">
             <div className="mb-6">
             <label className="block relative border border-gray-300 rounded p-2 focus-within:border-blue-500">
@@ -56,14 +63,6 @@ return (
                     <p> <br /> Đã có tài khoản? <Link legacyBehavior href="/sign-in"><a className="underline text-blue-500 font-bold">Đăng nhập</a></Link></p>
                 </div>
             </div>
-        <div className="flex-shrink-0">
-          <Image
-            src="/chatbot.png"
-            alt="Chatbot Image"
-            width={459}
-            height={665}
-          />
-        </div>
         </div>
     </main> 
 );
