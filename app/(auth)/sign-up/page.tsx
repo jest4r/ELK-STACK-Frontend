@@ -4,12 +4,12 @@ export default function Login() {
 return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24 bg-white">
         <header className="absolute top-2 left-2 m-4 font-bold text-2xl text-black">
-            LIBRA CHATBOT
+            ELK STACK TEST
         </header>
-        <div className="absolute top-0 right-0 z-0">
+        <div className="absolute top-30 right-25 z-0">
       <Image
-            src="/chatbot.png"
-            alt="Chatbot Image"
+            src="/elk-stack-logo.png"
+            alt="elk-stack-logo Image"
             width={499}
             height={605}
           />
